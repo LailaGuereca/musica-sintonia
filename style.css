@@ -11,9 +11,42 @@ h1 {
 .navbar {
   background-color: #000;
   color: #FCF9F9;
-  padding: 20px;
+  padding: 10px;
+  padding-right: 30px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+}
+
+.navbar a[href] {
+  text-decoration: none;
+  color:#FCF9F9;
+}
+
+.navbar > h2 {
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: justify;
+}
+
+header {
+  background-color: blue;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 0%;
+  left: 176px;
+  width: 100%;
 }
 
 main {
-  background-image: ;
+  background-color: yellowgreen;
+  position: absolute;
+  top: 137px;
+  left: 176px;
+  width: 100%;
 }
